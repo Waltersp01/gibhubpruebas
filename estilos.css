@@ -1,0 +1,66 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color:gainsboro
+        }
+        .navbar {
+            background-color: #6f1d1b !important;
+        }
+        .navbar-brand{
+
+            font-size: 25px;
+        }
+        .carousel-item img {
+            height: 500px;
+            object-fit:cover;
+            width: 500px;         /* Hace que las imágenes ocupen todo el ancho */
+           
+        }
+        .product-card {
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .card-img-top{
+
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .container{
+           font-size: 20px;
+
+        }
+        .card-title{
+
+            font-weight:bolder;
+            font-size: 25px;
+        }
+
+        .card-text{
+            font-family: Georgia, 'Times New Roman', Times, serif, serif;
+        }
+
+        .card-body{
+            background-color: rgb(252, 228, 162)
+        }
+        .img-fluid{
+            height:160px;
+            width: 200px;
+        
+
+        }
+        
+
+      
+.carousel-text {
+    font-family: 'Playfair Display', serif;
+    position:absolute; 
+    transform: translate(20px, -350px);
+    color: white; 
+    font-size: 90px;    
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+  }
+ 
