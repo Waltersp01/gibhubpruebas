@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="estilos.css">
   
 </head>
+
 <body>
+   
     <!-- Barra de Navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      
+        
+       
+        
         <div class="container">
+            
             <a class="navbar-brand" href="#">Cafetería al grano</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -32,9 +37,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Contacto</a>
                     </li>
+                    
                 </ul>
+                
+                </div>
             </div>
         </div>
+       
+        
     </nav>
 
     <!-- Carrusel de Imágenes -->
@@ -139,13 +149,14 @@
         <h2 class="text-center mb-4">Más Vendidos</h2>
         <div class="row">
             <div class="col-md-6 mb-4">
-                <div class="card">
+                <div class="card product-card ">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="Imagenes/productos.jpeg" class="img-fluid rounded-start" alt="Moca">
+                            <img src="Imagenes/productos.jpeg" class="card-img" height="250px;" alt="Moca">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body" style="height: 250px;">
+                                <br>
                                 <h5 class="card-title">Clasico Personal</h5>
                                 <p class="card-text">Cafe Expresso + empanada de carne</p>
                                 <div class="d-flex justify-content-between align-items-center">
@@ -158,16 +169,17 @@
                 </div>
             </div>
             <div class="col-md-6 mb-4">
-                <div class="card">
+                <div class="card product-card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="Imagenes/producto 2.jpeg" class="img-fluid" alt="Cold Brew">
+                            <img src="Imagenes/producto 2.jpeg" class="card-img" height="240px;"  alt="FrapeCaramelo">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="card-body" style="height: 240px;">                                
                                 <h5 class="card-title">Frapuccino de Caramelo</h5>
-                                <p class="card-text">Café frío preparado hielo y leche + posrtre </p>
+                                <p class="card-text" >Café frío preparado hielo y leche + posrtre </p>
                                 <div class="d-flex justify-content-between align-items-center">
+                                    
                                     <h4>S/17.50</h4>
                                     <button class="btn btn-success">Agregar</button>
                                 </div>
@@ -177,7 +189,13 @@
                 </div>
             </div>
         </div>
+
+
+        
     </section>
+
+
+   
 
 
     <section class="container my-5 text-center">
@@ -233,7 +251,6 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
