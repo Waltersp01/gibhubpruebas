@@ -1,125 +1,143 @@
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color:gainsboro
-        }
-        .navbar {
-            background-color: #6f1d1b !important;
-        }
-        .navbar-brand{
+     
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:gainsboro
+}
+.navbar {
+    background-color: #6f1d1b !important;
+}
+.navbar-brand{
 
-            font-size: 25px;
-        }
-        .carousel-item img {
-            height: 500px;
-            object-fit:cover;
-            width: 500px;         /* Hace que las imágenes ocupen todo el ancho */
-           
-        }
-        .product-card {
-            transition: transform 0.3s ease;
-        }
-        .product-card:hover {
-            transform: scale(1.05);
-        }
-        .card-img-top{
+    font-size: 25px;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit:cover;
+    width: 500px;         /* Hace que las imágenes ocupen todo el ancho */
+   
+}
+.product-card {
+    transition: transform 0.3s ease;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+.card-img-top{
 
-            height: 400px;
-            object-fit: cover;
-        }
+    height: 400px;
+    object-fit: cover;
+}
 
-        .container{
-           font-size: 20px;
+.container{
+   font-size: 20px;
 
-        }
-        .card-title{
+}
+.card-title{
 
-            font-weight:bolder;
-            font-size: 25px;
-        }
+    font-weight:bolder;
+    font-size: 25px;
+}
 
-        .card-text{
-            font-family: Georgia, 'Times New Roman', Times, serif, serif;
-        }
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
+}
 
-        .card-body{
-            background-color: rgb(252, 228, 162)
-        }
-        .img-fluid{
-            height:160px;
-            width: 200px;
-        
+.card-body{
+    background-color: rgb(252, 228, 162);
+    
+    
+}
 
-        }
-        
 
-      
+
+
 .carousel-text {
-    font-family: 'Playfair Display', serif;
-    position:absolute; 
-    transform: translate(20px, -350px);
-    color: white; 
-    font-size: 90px;    
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px;
-  }
+font-family: 'Playfair Display', serif;
+position:absolute; 
+transform: translate(20px, -350px);
+color: white; 
+font-size: 90px;    
+background-color: rgba(0, 0, 0, 0.5); 
+padding: 10px;
+}
 
 
-  .reservacion {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin-top: 40px;
+.reservacion {
+display: flex;
+justify-content: center;
+padding: 20px;
+margin-top: 40px;
 }
 
 /* Estilo del formulario */
 .reservacion-form {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background: none;
-    border-bottom: 2px solid #000; /* Línea  del formulario */
-    padding: 10px;
+display: flex;
+align-items: center;
+gap: 15px;
+background: none;
+border-bottom: 2px solid #000; /* Línea  del formulario */
+padding: 10px;
 }
 
 .reservacion-form input[type="text"],
 .reservacion-form input[type="tel"] {
-    border: none;
-    border-bottom: 1px solid #333;
-    padding: 8px;
-    width: 160px;
-    font-size: 16px;
-    background: transparent;
-    color: #000;
-    outline: none;
-    transition: border-color 0.3s ease;
+border: none;
+border-bottom: 1px solid #333;
+padding: 8px;
+width: 160px;
+font-size: 16px;
+background: transparent;
+color: #000;
+outline: none;
+transition: border-color 0.3s ease;
 }
 
 .reservacion-form input[type="text"]::placeholder,
 .reservacion-form input[type="tel"]::placeholder {
-    color: #888;
-    font-style: italic;
+color: #888;
+font-style: italic;
 }
 
 
 .reservacion-form input[type="text"]:focus,
 .reservacion-form input[type="tel"]:focus {
-    border-bottom: 1px solid #531b0a; /* Resalta el borde en negro al enfocar */
+border-bottom: 1px solid #531b0a; /* Resalta el borde en negro al enfocar */
 }
 
 .reservacion-form button {
-    background-color: #531b0a;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+background-color: #531b0a;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 30px;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .reservacion-form button:hover {
-    background-color: #333;
-    color: #e0e0e0;
+background-color: #333;
+color: #e0e0e0;
 }
+    .cart-icon {
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .cart-icon span {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 2px 20px;
+        font-size: 12px;
+        
+    }
+
+  
+
+  
